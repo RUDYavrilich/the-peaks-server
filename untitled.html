@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>𝕿𝖍𝖊 𝖋𝖆𝖗𝖒𝖊𝖗𝖘</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(120deg, #000000, #000000);
+      color: #770000;
+      -webkit-text-stroke: 1.5px rgb(0, 0, 0)
+      overflow-x hidden;
+    
+    }
+    header {
+      
+      padding: 80px 20px;
+      background: url(images/farmer.jpg) center/cover no-repeat;
+      border-bottom-left-radius: 80px;
+      border-bottom-right-radius: 80px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      animation: fadeIn 1.5s ease;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.4);
+      border-bottom-left-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h1 {
+      font-size: 3.5em;
+      margin: 0;
+      color: #b6aa00;
+      -webkit-text-stroke: 1.5px black
+    }
+    p {
+      font-size: 1.6em;
+      max-width: 700px;
+      margin: 20px auto;
+       color: #ffffff;
+      -webkit-text-stroke: 0.2px rgb(0, 0, 0)
+
+    }
+    .icon-btn {
+      margin: 30px 15px;
+      background: linear-gradient(135deg, #1d002e, #33001d);
+      border: none;
+      padding: 18px;
+      border-radius: 20px;
+      font-size: 1.3em;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.3s ease, 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .icon-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #23003b, #550832);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 20px;
+      gap: 25px;
+      background: linear-gradient(to bottom, #300008, #250321);
+    }
+    .gallery img {
+      width: 280px;
+      height: auto;
+      border-radius: 24px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.08);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25);
+    }
+    .video-container {
+      padding: 40px 20px;
+      text-align: center;
+     background: url(images/winterpictures.png) center/cover no-repeat;
+    }
+    .video-container video {
+      max-width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(255, 0, 0, 0.2);
+    }
+    footer {
+      background-color: #4e0900;
+      padding: 30px;
+      text-align: center;
+      font-size: 1em;
+      color: #ffffff;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2em;
+             color: #ffffff;
+      -webkit-text-stroke: 0.2px rgb(0, 0, 0)
+      }
+      p {
+        font-size: 1.1em;
+      }
+      .gallery img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨❚█══ 𝑻𝒉𝒆 𝒇𝒂𝒓𝒎𝒆𝒓𝒔 𝒔𝒆𝒓𝒗𝒆𝒓 ══█❚✨</h1>
+    <p>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒇𝒂𝒓𝒎𝒆𝒓'𝒔 𝒘𝒐𝒓𝒍𝒅 𝒔𝒐 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒆𝒏𝒋𝒐𝒚 𝒆𝒗𝒆𝒓𝒚𝒕𝒉𝒊𝒏𝒈</p>
+    <a href="images/Picsart_25-05-27_21-45-41-186.png" class="icon-btn" target="_blank">📷 𝐈𝐧𝐬𝐢𝐝𝐞 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫</a>
+    <a href="images/imagebik.jpg" class="icon-btn" target="_blank">👥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬</a>
+    <a href="images/300000000scp.jpg" class="icon-btn" target="_blank">📜 𝐑𝐮𝐥𝐞𝐬</a>
+    <a href="images/thanks 2000 sub.jpg" class="icon-btn" target="_blank">🎉 𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭𝐬</a>
+    <a href="https://discord.gg/planter" class="icon-btn" target="_blank">🚀 𝐉𝐨𝐢𝐧 𝐭𝐡𝐞 𝐬𝐞𝐫𝐯𝐞𝐫</a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+  </header>
+
+  <section class="gallery">
+  
+  </section>
+
+  <section class="video-container">
+    <h2>🎬 Some things about us</h2>
+    <video controls>
+      <source src="videos/VID_20250604_140802_193.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <footer>
+    Have a good day
+    &copy; 2025 Enjoy our server[family]💖
+  </footer>
+</body>
+</html>
